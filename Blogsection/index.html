@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Section</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="layout">
+
+  <!-- <=====> -->
+  <div class="hero">
+    
+    <h2 style="margin-bottom: 15px;">Test cricket fan survey results! What do fans think of the longest format?</h2>
+    <p class="" style="margin-bottom:15px;">Get your fix of cricket news, opinion, Dream11 fantasy cricket predictions, fan-led content & more.</p>
+    <img src="https://media.sportstiger.com/media/indias-probable-playing-xi-for-t20-world-cup-2026-sportstiger-1719918994010-original.webp" alt="cricket-main-blog-image">
+    <div class="text">
+      <p style="color:orangered;margin-bottom: 10px;font-weight: bold;">Cricket News</p>
+      <h2>ICC Board votes: Bangladesh must travel to India for T20 World Cup or will be replaced by Scotland</h2>
+    </div>
+  </div>
+
+  <!-- <======> -->
+  <div class="sidebar">
+    <h4>Stay ahead of the game with breaking cricket news, match insights, fantasy predictions, and expert opinions from the cricketing world.
+</h4>
+
+    <div class="item">
+        <div class="item-img">
+          <img src="https://s.ndtvimg.com/images/content/2015/mar/806/india-australia-dhoni.jpg" alt="cricket-news-1">
+        </div>
+        <div class="item-ctns">
+          
+      <h4 style="margin-bottom: 10px;">Rahul Dravid exits RR: What led to the sudden departure?</h4>
+      <p style="color:orangered">Tarkesh Jha -</p>
+      <p style="margin-bottom: 10px;color:orangered">September 1, 2025 at 9:55 pm</p>
+      <p>Rahul Dravid has left the Rajasthan Royals (RR). According to reports, there were internal disagreements on the way forward from a leadership perspective.</p>
+        </div>
+     
+    </div>
+
+       <div class="item">
+       <div class="item-img">
+          <img src="https://st3.cricketcountry.com/wp-content/uploads/2022/09/FotoJet-2022-09-14T162927.000.jpg" alt="cricket-news-1">
+        </div>
+        <div class="item-ctns">
+             <h4 style="margin-bottom: 10px;">Debate: Should the ICC have allowed Bangladesh to play their T20 World Cup matches in Sri Lanka?</h4>
+      <p style="color:orangered">Charbel Coorey -</p>
+      <p style="margin-bottom: 10px;color:orangered">January 22, 2026 at 3:35 pm</p>
+   
+      <p>The International Cricket Council (ICC) board voted to replace Bangladesh if they choose not to travel to India...</p>
+        </div>
+    </div>
+
+       <div class="item">
+        <div class="item-img">
+          <img src="https://thepeninsulaqatar.com/get/maximage/20240620_1718915929-821.jpg?1718915929" alt="cricket-news-1">
+        </div>
+        <div class="item-ctns">
+         
+      <h4 style="margin-bottom: 10px;">Moeen Ali exclusive interview: No drinking culture in England cricket</h4>
+      <p style="color:orangered">Charbel Coorey -</p>
+      <p style="margin-bottom: 10px;color:orangered">January 19, 2026 at 11:01 pm</p>
+      <p>Moeen Ali spoke to Tawhid Qureshi for CricBlog about the Bangladesh Premier League, T20 World Cup plus whether there is a drinking...</p>
+        </div>
+      
+    </div>
+
+ 
+
+<!-- <====> -->
+ 
+
+</div>
+ <div class="cards">
+    <div class="card">
+        <img src="https://ichef.bbci.co.uk/ace/standard/624/cpsprodpb/8B7D/production/_105290753_kohli_getty.jpg"/>
+        <p style="margin-bottom:10px;color:orangered">Legendary Cricket Captains</p>
+        <h5 style="margin-bottom: 5px;color:grey">CAPTAINS WORKS ....</h5>
+        <p class="content">The content surrounding legendary cricket captains is rich with stories of leadership, strategy, and the impact these individuals have had on the sport. Captains like MS Dhoni, Ricky Ponting, and Rohit Sharma have not only led their teams to victory but have also left a lasting legacy in the hearts of cricket fans worldwide. Their leadership styles, from the calm and strategic approach of Dhoni to the aggressive and motivational style of Ponting and Sharma, have inspired future generations of cricketers and fans alike</p>
+    </div>
+    <div class="card">
+        <img src="https://australiancricketinstitute.com/wp-content/uploads/2017/12/CC-Batting.jpeg"/>
+        <p  style="margin-bottom:10px;color:orangered">Training Tips for Batsmen</p>
+         <h5 style="margin-bottom: 5px;color:grey">BATSMEN WORKS ....</h5>
+    <p class="content">Footwork: Practice moving forward or back depending on the ball's length and using different foot positions to suit your style. </p></div>
+    
+    <div class="card">
+        <img src="https://spsauae.com/wp-content/uploads/2023/04/Cricket-academy-dubai-2-2048x1152.jpg"/>
+       <p class="" style="margin-bottom:10px;color:orangered">Mental Strength in Cricket</p>
+       <h5 style="margin-bottom: 5px;color:grey">STRENGTH WORKS ....</h5>
+    <p class="content">Mental strength in cricket is a crucial aspect that separates successful players from those who struggle. It involves techniques such as visualization, deep breathing, positive self-talk, and staying in the present moment. These strategies help cricketers stay calm, focused, and composed under pressure, allowing them to make better decisions and recover quickly from setbacks. Mental conditioning and mindset coaching are essential for building resilience and emotional control, enabling players to perform at their best throughout the game.</p>
+</div>
+  </div>
+
+</body>
+<script>
+  const limit = 123;
+
+  document.querySelectorAll(".content").forEach(item => {
+    const fullText = item.textContent.trim();
+
+    if (fullText.length > limit) {
+      item.textContent = fullText.slice(0, limit) + "...";
+    }
+  });
+</script>
+
+</html>
