@@ -1,0 +1,47 @@
+[
+  {
+    "question": "Which country won the FIFA World Cup 2022?",
+    "Options": [
+      { "text": "Brazil", "isCorrect": false },
+      { "text": "France", "isCorrect": false },
+      { "text": "Argentina", "isCorrect": true },
+      { "text": "Germany", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "How many players are there in a cricket team?",
+    "Options": [
+      { "text": "9", "isCorrect": false },
+      { "text": "10", "isCorrect": false },
+      { "text": "11", "isCorrect": true },
+      { "text": "12", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Who is known as the 'God of Cricket'?",
+    "Options": [
+      { "text": "Virat Kohli", "isCorrect": false },
+      { "text": "MS Dhoni", "isCorrect": false },
+      { "text": "Sachin Tendulkar", "isCorrect": true },
+      { "text": "Ricky Ponting", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Which sport uses a shuttlecock?",
+    "Options": [
+      { "text": "Tennis", "isCorrect": false },
+      { "text": "Badminton", "isCorrect": true },
+      { "text": "Squash", "isCorrect": false },
+      { "text": "Table Tennis", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "How many points is a three-pointer worth in basketball?",
+    "Options": [
+      { "text": "1", "isCorrect": false },
+      { "text": "2", "isCorrect": false },
+      { "text": "3", "isCorrect": true },
+      { "text": "4", "isCorrect": false }
+    ]
+  }
+]
