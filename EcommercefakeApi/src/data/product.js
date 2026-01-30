@@ -1,0 +1,66 @@
+export const products = [
+  {
+    id: 1,
+    name: "Apple iPhone 17 Pro Max",
+    category: "Apple",
+    price: 164999,
+    image: "https://i.pinimg.com/736x/21/1a/02/211a02ccff70138a580dbdd020b1fde2.jpg",
+  },
+  {
+    id: 2,
+    name: "Samsung Galaxy S26 Ultra",
+    category: "Samsung",
+    price: 159990,
+    image: "https://beebom.com/wp-content/uploads/2025/02/Camera-Rings-Around-the-Samsung-Galaxy-S25-Ultra.jpg?w=1024",
+  },
+  {
+    id: 3,
+    name: "Google Pixel 10 Pro XL",
+    category: "Google",
+    price: 119900,
+    image: "https://fdn.gsmarena.com/imgroot/reviews/25/google-pixel-10-pro-xl/lifestyle/-1200w5/gsmarena_001.jpg",
+  },
+  {
+    id: 4,
+    name: "OnePlus 15",
+    category: "OnePlus",
+    price: 99999,
+    image: "https://th.bing.com/th/id/OIP.zgKCS_T61aPl0ZKJ0N726AHaEK?w=283&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+  },
+  {
+    id: 5,
+    name: "Realme GT 8 Pro",
+    category: "Realme",
+    price: 64999,
+    image: "https://fdn.gsmarena.com/imgroot/news/21/11/realme-gt-2-pro-specs-price-tipped/inline/-1200w1/gsmarena_001.jpg",
+  },
+  {
+    id: 6,
+    name: "Xiaomi 15 Ultra",
+    category: "Xiaomi",
+    price: 129999,
+    image: "https://i02.appmifile.com/mi-com-product/fly-birds/xiaomi-15-ultra/pc/492448be03b17c1d78c43790d4d21eee.jpg",
+  },
+  {
+    id: 7,
+    name: "Samsung Galaxy Z Fold7",
+    category: "Samsung",
+    price: 179999,
+    image: "https://www.androidheadlines.com/wp-content/uploads/2022/08/samsung-galaxy-z-fold-4-31.jpeg",
+  },
+  {
+    id: 8,
+    name: "Vivo X300 Pro",
+    category: "Vivo",
+    price: 89999,
+    image: "https://techgenyz.com/wp-content/uploads/2025/12/Vivo-X300-Pro.webp",
+  },
+  {
+    id: 9,
+    name: "Nothing Phone (3a)",
+    category: "Nothing",
+    price: 29999,
+    image: "https://imgeng.jagran.com/images/2025/02/25/article/image/nothingphone3-(1)-1740462438496.webp",
+  },
+ 
+];
